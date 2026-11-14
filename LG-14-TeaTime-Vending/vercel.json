@@ -2,6 +2,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://lg-14-teatime-vending.onrender.com/"
+    },
+    {
       "source": "/:path*",
       "destination": "https://lg-14-teatime-vending.onrender.com/:path*"
     }
